@@ -1,0 +1,34 @@
+h1{
+  text-align: center;
+  font-size: 48px;
+}
+.grid-container{
+  border-style: solid;
+  border-color: black;
+  display: grid;
+  width: 700px;
+  height: 700px;
+}
+
+.touched-square{
+  background-color: black;
+}
+
+.button{
+  width: 100px;
+  height: 50px;
+}
+
+.content{
+  display:flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+.toolbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+  gap: 24px;
+}
